@@ -26,7 +26,7 @@ for i=ceil(P/2):size(I, 1)-floor(P/2)
        
         % compare and take minimum value of the neighbor
         % and set the pixel value to that minimum value.
-        In(i, j)=min(nh(:));     
+        In(i, j)=min(nh(:));
     end
 end
  
